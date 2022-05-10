@@ -30,7 +30,7 @@ namespace WordScrambler.Repository
             Brands = brands;
             Desserts = desserts;
         }
-        public Words(){}
+        // public Words(){}
         
     }
 

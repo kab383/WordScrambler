@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "WordScrambler.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WordScrambler.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WordScrambler.Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WordScrambler.Repository/1.0.0": {
+      "type": "project",
+      "path": "../WordScrambler.Repository/WordScrambler.Repository.csproj",
+      "msbuildProject": "../WordScrambler.Repository/WordScrambler.Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "WordScrambler.Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Kristian\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

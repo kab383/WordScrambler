@@ -7,28 +7,48 @@ namespace WordScrambler.Repository
 {
     public class WordScramblerRepository
     {
-        private List<Words> _wordsListDB = new List<Words>();
+        private List<Words> _wordsListDB = new List<Words>(); // To use a new instance of our list.
 
-        public void AddWordsToDatabase(Words words)
+        public void AddWordsToDatabase(Words words) // Add Words data to the list
         {
             _wordsListDB.Add(words);
         }
 
+        static Random r = new Random(); // Randomizer for the shuffle
+        // FISHER-YATES SHUFFLE
+        public void ShuffleString(object[] objects)
+        {
+            // for (int i = objects.Length - 1; i > 0; i--)
+            // {
+            //     int j = r.Next(i + 1);
+            //     object temp = objects[i];
+            //     objects[i] = objects[j];
+            //     objects[j] = temp;
+            // }
+        }
+
+        // AttemptCounter()
+
+        // WordFailed()
+
+        // ScoreCounter()
+        
+
+
         public void SeedWordData()
         {
-            Words _iKnowMyABC = new Words("lion", "lincoln", "canada", "jaws", "tomato", "soccer", "friends", "apple", "cake");
-            Words _averageVocabulary = new Words("rhinoceros", "washington", "denmark", "inception", "spaghetti", "basketball", "futurama", "adidas", "macaron");
-            Words _wordSmith = new Words("hippopotamus", "roosevelt", "uruguay", "sharknado", "chimichurri", "gymnastics", "reign", "chevrolet", "beignet");
-            Words _spectacularVenacular = new Words("pangolin", "buchanan", "azerbaijan", "jumanji", "edamame", "fencing", "supernatural", "birkenstock", "baklava");
-            Words _myNameIsMerriamWebster = new Words("parastratiosphecomyia stratiosphecomyioides", "eisenhower", "liechtenstein", "ratatouille", "bouillabaisse", "taekwondo", "animaniacs", "balenciaga", "marscapone");
+            Words iKnowMyABC = new Words("lion", "lincoln", "canada", "jaws", "tomato", "soccer", "friends", "apple", "cake");
+            Words averageVocabulary = new Words("rhinoceros", "washington", "denmark", "inception", "spaghetti", "basketball", "futurama", "adidas", "macaron");
+            Words wordSmith = new Words("hippopotamus", "roosevelt", "uruguay", "sharknado", "chimichurri", "gymnastics", "reign", "chevrolet", "beignet");
+            Words spectacularVenacular = new Words("pangolin", "buchanan", "azerbaijan", "jumanji", "edamame", "fencing", "supernatural", "birkenstock", "baklava");
+            Words myNameIsMerriamWebster = new Words("parastratiosphecomyia stratiosphecomyioides", "eisenhower", "liechtenstein", "ratatouille", "bouillabaisse", "taekwondo", "animaniacs", "balenciaga", "marscapone");
 
-            Words[] wordsArr = {_iKnowMyABC, _averageVocabulary, _wordSmith, _spectacularVenacular, _myNameIsMerriamWebster};
+            Words[] wordsArr = {iKnowMyABC, averageVocabulary, wordSmith, spectacularVenacular, myNameIsMerriamWebster};
 
-            foreach(Words words in wordsArr)
+            foreach (Words words in wordsArr)
             {
                 AddWordsToDatabase(words);
             }
         }
-
     }
 }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WordScrambler.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "WordScrambler.Repository": "1.0.0"
+        },
+        "runtime": {
+          "WordScrambler.ConsoleApp.dll": {}
+        }
+      },
+      "WordScrambler.Repository/1.0.0": {
+        "runtime": {
+          "WordScrambler.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordScrambler.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WordScrambler.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
