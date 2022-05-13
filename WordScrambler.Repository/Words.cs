@@ -7,6 +7,7 @@ namespace WordScrambler.Repository
 {
     public class Words
     {
+        public string GroupTitle {get; set;}
         // Properties
         public string ZooAnimals { get; set; }
         public string Presidents { get; set; }
@@ -18,8 +19,9 @@ namespace WordScrambler.Repository
         public string Brands { get; set; }
         public string Desserts { get; set; }
 
-        public Words(string zooAnimals, string presidents, string countries, string movies, string foods, string sports, string tvShows, string brands, string desserts)
+        public Words(string groupTitle, string zooAnimals, string presidents, string countries, string movies, string foods, string sports, string tvShows, string brands, string desserts)
         {
+            GroupTitle = groupTitle;
             ZooAnimals = zooAnimals;
             Presidents = presidents;
             Countries = countries;
@@ -30,8 +32,6 @@ namespace WordScrambler.Repository
             Brands = brands;
             Desserts = desserts;
         }
-        // public Words(){}
-        
     }
 
 }

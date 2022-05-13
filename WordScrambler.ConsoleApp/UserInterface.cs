@@ -16,16 +16,7 @@ namespace WordScrambler.ConsoleApp
         public void Run()
         {
             wsrRepo.SeedWordData();
-            // List<Words> scrambledWords = wsrRepo.ShuffleWordsGroup(wsrRepo._wordsListDB);
 
-            // Console.WriteLine(scrambledWords[1].ZooAnimals); //should print ilno
-
-            // Console.WriteLine(scrambledWords);
-            // ^ convert to variable later to reference
-            
-            // Console.WriteLine(wsrRepo.ShuffleString("hello"));
-            
-            // // wsrRepo.ShuffleString(wsrRepo._wordsListDB);
             while(isRunning)
             {
                 PrintMainMenu();
@@ -87,7 +78,6 @@ namespace WordScrambler.ConsoleApp
 
             string[] scrambledArr = {scrambledWords.ZooAnimals, scrambledWords.Presidents, scrambledWords.Countries, scrambledWords.Movies, scrambledWords.Foods, scrambledWords.Sports, scrambledWords.TvShows, scrambledWords.Brands, scrambledWords.Desserts};
 
-            // While loop to continue game, or end it with a boolean
 
                 for(int i = 0; i < 9; i++ )
                 {
@@ -110,8 +100,4 @@ namespace WordScrambler.ConsoleApp
     }
 }
         
-
         // PrintScore() - stretch goal.
-
-        // PlayAgain()
-        // Console.WriteLine conditional to play again and PrintMainMenu() or quit game with a see you later message.

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj": {}
+    "C:\\EFAfiles\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj": {}
   },
   "projects": {
-    "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj": {
+    "C:\\EFAfiles\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj",
+        "projectUniqueName": "C:\\EFAfiles\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj",
         "projectName": "WordScrambler.Repository",
-        "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj",
-        "packagesPath": "C:\\Users\\Kristian\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\obj\\",
+        "projectPath": "C:\\EFAfiles\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj",
+        "packagesPath": "C:\\Users\\beall\\.nuget\\packages\\",
+        "outputPath": "C:\\EFAfiles\\WordScrambler\\WordScrambler.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beall\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

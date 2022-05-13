@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E+KlhnwYstYldKNbXyPOS/2gG4uAxu+EcwpJnQppP6lhNDK7Ac5jaNRH+zBzkMtwwVp53+IruusoIfVaoGPsXw==",
+  "dgSpecHash": "9ZyIYPpIr/9cqC2ZxwWXQ/9veG5SqmRVdD/o2rLsmVtpQMZECRz74IP2Gdbl0ltjgp4gLscxKWDpJqDo9DBzfQ==",
   "success": true,
-  "projectFilePath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\csharpBasics\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj",
+  "projectFilePath": "C:\\EFAfiles\\WordScrambler\\WordScrambler.Repository\\WordScrambler.Repository.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

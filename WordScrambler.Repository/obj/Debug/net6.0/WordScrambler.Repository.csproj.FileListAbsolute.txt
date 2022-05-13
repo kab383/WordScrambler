@@ -10,3 +10,15 @@ C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\csharpBasics\WordScrambl
 C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\csharpBasics\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\refint\WordScrambler.Repository.dll
 C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\csharpBasics\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.pdb
 C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\csharpBasics\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\ref\WordScrambler.Repository.dll
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\bin\Debug\net6.0\WordScrambler.Repository.deps.json
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\bin\Debug\net6.0\WordScrambler.Repository.dll
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\bin\Debug\net6.0\WordScrambler.Repository.pdb
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.csproj.AssemblyReference.cache
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.AssemblyInfoInputs.cache
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.AssemblyInfo.cs
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.csproj.CoreCompileInputs.cache
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.dll
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\refint\WordScrambler.Repository.dll
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\WordScrambler.Repository.pdb
+C:\EFAfiles\WordScrambler\WordScrambler.Repository\obj\Debug\net6.0\ref\WordScrambler.Repository.dll
